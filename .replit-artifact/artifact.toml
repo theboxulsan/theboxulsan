@@ -1,0 +1,47 @@
+kind = "web"
+previewPath = "/"
+title = "THE BOX 울산"
+version = "1.0.0"
+id = "artifacts/thebox-ulsan"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25743
+
+[services.development]
+run = "pnpm --filter @workspace/thebox-ulsan run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/thebox-ulsan", "run", "build" ]
+publicDir = "artifacts/thebox-ulsan/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/consultation"
+to = "/consultation/index.html"
+
+[[services.production.rewrites]]
+from = "/consultation/*"
+to = "/consultation/index.html"
+
+[[services.production.rewrites]]
+from = "/program"
+to = "/program/index.html"
+
+[[services.production.rewrites]]
+from = "/program/*"
+to = "/program/index.html"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25743"
+BASE_PATH = "/"
