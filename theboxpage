@@ -824,7 +824,13 @@
     </div>
   </div>
 </section>
-
+<!-- 수업비용 · 시간표 배너 -->
+<section style="background:#fff7ed;border-top:1px solid #ffe4c4;border-bottom:1px solid #ffe4c4;padding:48px 20px;text-align:center;">
+    <p style="font-size:0.85rem;font-weight:700;color:#ea580c;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:12px;">CURRICULUM &amp; PRICE</p>
+    <h2 style="font-size:1.9rem;font-weight:900;color:#111;margin:0 0 12px;">수업 시간표 &amp; 가격표</h2>
+    <p style="color:#666;font-size:1rem;margin:0 0 24px;">아카데미·원어민 스터디 수강료와 시간표를 한 페이지에서 확인하세요.</p>
+    <a href="curriculum/index.html" style="display:inline-block;background:#111;color:#fff;font-size:15px;font-weight:700;padding:14px 32px;border-radius:999px;transition:all 0.25s;">📋 시간표 &amp; 가격표 전체 보기 →</a>
+</section>
 <!-- CTA -->
 <section class="cta-section">
   <div class="container">
@@ -841,10 +847,12 @@
   <div class="footer-tagline">울산 영어권 원어민 커뮤니티 · Ulsan, South Korea</div>
   <div class="footer-links">
     <a href="public/consultation/index.html">무료 상담</a>
+    <a href="curriculum/index.html" class="header-link">💰 수업비용·시간표</a>
     <a href="public/consultation/index.html">상담지 작성</a>
     <a href="https://www.instagram.com/thebox_ulsan/" target="_blank" rel="noopener">인스타그램</a>
     <a href="#why">왜 더박스인가</a>
     <a href="#programs">프로그램</a>
+    
   </div>
   <div class="footer-copy">© 2025 THE BOX 울산. All rights reserved.</div>
   <div style="margin-top:16px;font-size:11px;color:rgba(255,255,255,.2);line-height:1.7;max-width:600px;margin-left:auto;margin-right:auto;">
